@@ -85,11 +85,11 @@ export default function LoginPage({ onLoginSuccess }: LoginPageProps) {
           <div className="mb-3 flex items-center justify-center gap-2">
             <BookOpen className="h-7 w-7 text-accent-gold" strokeWidth={1.5} />
             <span className="font-display text-2xl md:text-3xl font-medium tracking-tightest text-ink">
-              WordGrid
+              每日单词
             </span>
           </div>
           <p className="font-serif text-sm italic text-ink-muted">
-            词汇网格 · {mode === "login" ? "登录" : "注册"}
+            {mode === "login" ? "登录" : "注册"}
           </p>
         </div>
 
