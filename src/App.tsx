@@ -358,7 +358,6 @@ function AppContent({ onLogout }: { onLogout: () => void }) {
             path="/essays"
             element={<Essays addTrigger={essayAddTrigger} />}
           />
-          <Route path="/about" element={<About />} />
           <Route path="/settings" element={<Settings />} />
         </Routes>
       </AppShell>

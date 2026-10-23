@@ -42,8 +42,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       // PWA 资源路径需与 base path 保持一致
       manifest: {
-        name: 'WordGrid · 词汇网格',
-        short_name: 'WordGrid',
+        name: '每日单词',
+        short_name: '每日单词',
         description: '以日历网格为核心交互形态的英语词汇学习软件，基于艾宾浩斯遗忘曲线',
         theme_color: '#F5F1E8',
         background_color: '#F5F1E8',

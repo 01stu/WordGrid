@@ -23,7 +23,6 @@ const navItems = [
   { to: "/essays", label: "Essays", labelCN: "随笔", icon: Quote },
   { to: "/blocks", label: "Blocks", labelCN: "积木造文", icon: Blocks },
   { to: "/stats", label: "Stats", labelCN: "统计", icon: BarChart3 },
-  { to: "/about", label: "About", labelCN: "关于", icon: Info },
 ];
 
 export default function AppShell({ children, onQuickAdd, onLogout, onPickWord, onOpenTheme }: AppShellProps) {
@@ -43,7 +42,7 @@ export default function AppShell({ children, onQuickAdd, onLogout, onPickWord, o
           <div className="flex items-center justify-between gap-4">
             <div className="flex items-baseline gap-3 md:gap-4">
               <h1 className="font-display text-2xl font-semibold tracking-tightest text-ink md:text-3xl lg:text-4xl">
-                WordGrid
+                每日单词
               </h1>
             </div>
 
@@ -152,7 +151,7 @@ export default function AppShell({ children, onQuickAdd, onLogout, onPickWord, o
        * 透明背景让 body 纹理透过，与主题统一 */}
       <footer className="hidden border-t border-ink/15 backdrop-blur-sm md:block">
         <div className="mx-auto flex max-w-[1400px] flex-col items-start justify-between gap-2 px-6 py-4 font-mono text-2xs uppercase tracking-editorial text-ink-light sm:flex-row sm:items-center lg:px-10">
-          <span>WordGrid © 2026 · A Vocabulary Archive</span>
+          <span>每日单词 © 2026 · A Vocabulary Archive</span>
           <span>Ebbinghaus Review Engine · Local-First</span>
         </div>
       </footer>
