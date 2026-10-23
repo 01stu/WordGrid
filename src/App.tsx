@@ -439,7 +439,6 @@ export default function App() {
     <Router>
       <AppContent onLogout={handleLogout} />
       <StudyTimeTracker />
-      <UpdateNotice />
       <PWAUpdatePrompt />
     </Router>
   );
