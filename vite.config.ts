@@ -11,7 +11,7 @@ const REPO_NAME = 'WordGrid';
 export default defineConfig({
   // GitHub Pages 项目页面 URL 为 https://用户名.github.io/仓库名/
   // base 必须设为 /仓库名/ 否则资源路径会 404
-  base: `/${REPO_NAME}/`,
+  base: `/`,
   build: {
     // 生产构建关闭 sourcemap：index.js.map 曾达 4.9MB，
     // 拉大 artifact 体积，导致 GitHub Pages 部署超时
